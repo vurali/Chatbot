@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Howdy"],
+      "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "options",
+      "patterns": ["What can you do?", "What are your capabilities?", "How can you assist me?"],
+      "responses": ["I can help you with inquiries related to our products, services, and more. Feel free to ask!"]
+    },
+    {
+      "tag": "about_company",
+      "patterns": ["Tell me about your company", "What does your company do?", "Who are you?"],
+      "responses": ["We are a leading provider of innovative solutions in the tech industry. Our focus is on delivering cutting-edge products and services to our customers."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["How much does it cost?", "What are your prices?", "Can you give me pricing information?"],
+      "responses": ["Our pricing varies based on the product or service you're interested in. Please visit our website or contact our sales team for detailed pricing information."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["I need help", "Can you assist me with something?", "I'm having trouble"],
+      "responses": ["Of course! Please describe the issue you're facing, and I'll do my best to help you resolve it."]
+    },
+    {
+      "tag": "product_features",
+      "patterns": ["What features does your product have?", "Tell me about your product features", "What can your product do?"],
+      "responses": ["Our product offers a wide range of features designed to streamline your workflow, enhance productivity, and deliver exceptional results. Some key features include..."]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["You're doing a great job", "I'm impressed", "Great work"],
+      "responses": ["Thank you so much! It's great to hear that you're satisfied with our service."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["", "I don't understand", "Can you repeat that?", "Sorry, I'm confused"],
+      "responses": ["I'm sorry, I didn't quite get that. Could you please rephrase your question?"]
+    }
+  ]
+}
